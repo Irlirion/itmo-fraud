@@ -1,0 +1,16 @@
+[project]
+name = "itmo-fraud"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.30.0",
+    "pandas>=2.3.1",
+    "pyarrow>=21.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.7",
+]
