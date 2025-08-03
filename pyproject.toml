@@ -6,8 +6,12 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "ipykernel>=6.30.0",
+    "llvmlite>=0.44.0",
+    "numpy<=2.2",
     "pandas>=2.3.1",
     "pyarrow>=21.0.0",
+    "pyod>2",
+    "tqdm>=4.67.1",
 ]
 
 [dependency-groups]
